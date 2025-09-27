@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Auto Redirect</title>
-    <script>
-        // This will automatically run when the page loads
-        window.onload = function() {
-            // Redirect to the Home.html in the migrated folder
-            window.location.href = './migrated/Home.html';
-        };
-    </script>
+  <meta charset="UTF-8">
+  <title>Task Planner</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
 </head>
 <body>
-    <p>Redirecting to Home.html...</p>
+  <iframe src="https://sites.google.com/view/migratedtaskplanner/home"></iframe>
 </body>
 </html>
